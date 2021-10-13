@@ -75,7 +75,7 @@ class _WeightAnalyticsState extends State<WeightAnalytics> {
 
   // CRUD for add
   void _addNewWeight(DateTime theDate, double aNewWeight) {
-    print('in _addNewWeight');
+    //print('in _addNewWeight');
     final newWeight = WeightClass(
         id: DateTime.now().toString(), date: theDate, weight: aNewWeight);
 
@@ -95,6 +95,7 @@ class _WeightAnalyticsState extends State<WeightAnalytics> {
         return aWeight.id == id;
       });
       SharedPreferencesHelper.setWeightList(_userWeightList);
+      loadUserWeightList();
     });
   }
 

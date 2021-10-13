@@ -18,12 +18,12 @@ class _NewWeightState extends State<NewWeight> {
   DateTime _selectedDate = DateTime.now();
 
   void submitData() {
-    print('NewWeight: submitData');
+    //print('NewWeight: submitData');
     if (weightController.text.isEmpty) return;
     if (double.tryParse(weightController.text) == null) return;
     if (double.parse(weightController.text) < 0) return;
     final double enteredWeight = double.tryParse(weightController.text);
-    print('NewWeight: addNewWeight');
+    //print('NewWeight: addNewWeight');
     widget.addNewWeight(_selectedDate, enteredWeight);
     Navigator.of(context).pop();
   }
