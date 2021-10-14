@@ -1,3 +1,9 @@
+//********************************************/
+// Copyright 2021 Rod TerMaat (BigManSoftware)
+// rodtermaat@gmail.com
+// GNU General Public Lisense
+//********************************************/
+
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_scatter/flutter_scatter.dart';

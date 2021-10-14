@@ -1,3 +1,9 @@
+//********************************************/
+// Copyright 2021 Rod TerMaat (BigManSoftware)
+// rodtermaat@gmail.com
+// GNU General Public Lisense
+//********************************************/
+
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
